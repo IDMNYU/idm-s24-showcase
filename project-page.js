@@ -53,26 +53,14 @@ function initPage() {
           "view their portfolio";
         document.getElementById("personal-link").href =
           foundElement.portfolio_link;
-        document.addEventListener("click", function (portfolio_link) {
-          if (
-            portfolio_link.target.tagName == "A" &&
-            !portfolio_link.target.hasAttribute("target")
-          ) {
-            portfolio_link.target.setAttribute("target", "_blank");
-          }
-        });
+        document
+          .getElementById("personal-link")
+          .setAttribute("target", "_blank");
 
         document.getElementById("linkedin").textContent = foundElement.linkedin;
         // document.getElementById("linkedin").textContent = "linkedin";
         document.getElementById("linkedin").href = foundElement.linkedin;
-        document.addEventListener("click", function (linkedin) {
-          if (
-            linkedin.target.tagName == "A" &&
-            !linkedin.target.hasAttribute("target")
-          ) {
-            linkedin.target.setAttribute("target", "_blank");
-          }
-        });
+        document.getElementById("linkedin").setAttribute("target", "_blank");
 
         var mainImg = document.getElementById("main-img");
         if (foundElement.hasOwnProperty("image_path")) {
