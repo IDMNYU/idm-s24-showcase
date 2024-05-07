@@ -121,8 +121,17 @@ footer a {
   color: #ffeddf;
 }
 
-footer img {
-  width: 330px;
+@media (min-width: 400px) {
+  footer img {
+    width: 330px;
+  }
+}
+
+/* smaller screen */
+@media (max-width: 400px) {
+  footer img {
+    width: 60vw;
+  }
 }
 
 /* title formatting start */
@@ -399,6 +408,7 @@ footer img {
   /* background: yellow; */
   grid-area: top-middle-container;
   color: #ddd92a;
+  font-weight: 600;
 }
 
 .top-right3 {
@@ -414,7 +424,7 @@ footer img {
 .bottom-middle3 {
   /* background: red; */
   grid-area: bottom-middle-container;
-  font-weight: 600;
+  /* font-weight: 600; */
 }
 
 .bottom-middle3 a {
