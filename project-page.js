@@ -49,10 +49,12 @@ function initPage() {
 
         // document.getElementById("personal-link").textContent =
         //   foundElement.portfolio_link;
-        document.getElementById("personal-link").textContent =
-          "view their portfolio";
-        document.getElementById("personal-link").href =
-          foundElement.portfolio_link;
+        if (foundElement.portfolio_link !== "") {
+          document.getElementById("personal-link").textContent =
+            "view their portfolio";
+          document.getElementById("personal-link").href =
+            foundElement.portfolio_link;
+        }
         document
           .getElementById("personal-link")
           .setAttribute("target", "_blank");
