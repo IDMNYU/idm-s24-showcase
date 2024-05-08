@@ -411,9 +411,12 @@ footer a {
   font-weight: 600;
 }
 
-.top-right3 {
+.top-right3 a {
   /* background: yellow; */
   grid-area: top-right-container;
+  color: #fb8b24;
+  font-weight: 600;
+  align-self: end;
 }
 
 .bottom-left3 {
