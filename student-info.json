@@ -205,6 +205,24 @@
     "video_content": ""
   },
   {
+    "email_address": "jw7017@nyu.edu",
+    "full_name": "Mario Yang, Tiya Wang",
+    "net_id": "jw7017",
+    "project_title": "Ozventure",
+    "year": "Senior (Senior Project)",
+    "medium": "Mixed Reality",
+    "info": "",
+    "portfolio_link": "#",
+    "project_link": "https://ozventure.webflow.io/",
+    "description": "Inspired by immersive theater, we designed a framework called MiraStage to facilitate interactions in the virtual and real world by creating asymmetrical dynamics among users. Participants can join as either explorers or actors. As actors, they receive cues based on logic established in the environment. They are able to manipulate virtual entities, usually with higher priority than explorers, receive various cues throughout the scenariomostly based on the objects that explorers are interacting withand decide which visual hints, if any, they want to provide to explorers. As explorers, participants progress through the narrative by interacting with the actor and exploring both the virtual and physical environments. They can use, destroy, and manipulate virtual entities, ask the actor for feedback or hints, and make major decisions that influence the narrative. Our group implemented an interactive narrative within this framework titled Explorer of Oz. In this experience, participants engage in three scenarios to collaboratively advance a story: explorer would help the Tin Man find a heart, aid the Scarecrow in his search for a brain, and assist the Cowardly Lion in crossing a single-plank bridge. The actor portrays these three characters in each scenario. Subtle choices made in both virtual and physical worlds by both participants can lead to various narrative outcomes.",
+    "main_image": "",
+    "supp_image": "",
+    "keywords": "",
+    "linkedin": "",
+    "instagram": "",
+    "video_content": ""
+  },
+  {
     "email_address": "qc588@nyu.edu",
     "full_name": "Josh Chen",
     "net_id": "qc588",
